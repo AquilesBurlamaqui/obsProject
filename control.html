@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"></script>
+
+    <title>Control</title>
+</head>
+<body>
+<div class="container mt-3">     
+    <div class="Team One"> 
+        <h4>Lutador 01</h4>
+        <div class="input-group mb-3">
+            <div class="input-group-prepend">
+                <span class="input-group-text">Nome</span>
+            </div>
+            <input type="text" id="nomeLutador01" class="form-control" >
+        </div>
+        <div class="input-group mb-3">
+            <div class="input-group-prepend">
+                <span class="input-group-text">Academia</span>
+            </div>
+            <input type="text" id="nomeAcademia01"class="form-control"></input>
+        </div>
+        
+        <button id="ScoreOneMenos" class="btn btn-danger btn-sm">-1</button> <button id="ScoreOne" class="btn btn-danger btn-sm">+1</button>
+        <button id="ScoreOneBMenos" class="btn btn-success btn-sm">-1</button> <button id="ScoreOneB" class="btn btn-success btn-sm">+1</button>
+        <button id="ScoreOneCMenos" class="btn btn-secondary btn-sm">-1</button> <button id="ScoreOneC" class="btn btn-secondary btn-sm">+1</button>
+
+    </div>
+
+    <hr>
+    <div class="Team Two"> 
+        <h4>Lutador 02</h4>
+        <div class="input-group mb-3">
+            <div class="input-group-prepend">
+                <span class="input-group-text">Nome</span>
+            </div>
+            <input type="text" id="nomeLutador02" class="form-control" >
+        </div>
+        <div class="input-group mb-3">
+            <div class="input-group-prepend">
+                <span class="input-group-text">Academia</span>
+            </div>
+            <input type="text" id="nomeAcademia02"class="form-control"></input>
+        </div>
+        <button id="ScoreTwoMenos" class="btn btn-danger btn-sm">-1</button><button id="ScoreTwo" class="btn btn-danger btn-sm">+1</button>
+        <button id="ScoreTwoBMenos" class="btn btn-success btn-sm">-1</button> <button id="ScoreTwoB" class="btn btn-success btn-sm">+1</button>
+        <button id="ScoreTwoCMenos" class="btn btn-secondary btn-sm">-1</button> <button id="ScoreTwoC" class="btn btn-secondary btn-sm">+1</button>
+    </div>
+
+    <hr>
+  <div class="input-group mb-3">
+    <div class="input-group-prepend">
+        <span class="input-group-text">Minutos</span>
+    </div>
+    <input size="2" type="number" class="form-control"  id="minutos" value="5"/>
+</div>   
+    
+  <button id="Reset" class="btn btn-secondary btn-sm">Iniciar</button>
+  <button id="Pausar" class="btn btn-secondary btn-sm">Pausar</button>
+  <script src="./control.js"></script>
+   
+  </div>
+</body>
+</html>
