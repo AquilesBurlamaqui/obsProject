@@ -48,6 +48,8 @@ localStorage.setItem('ScoreTwo',Score2);
 localStorage.setItem('ScoreTwoB',Score2B);
 localStorage.setItem('ScoreTwoC',Score2C);
 
+localStorage.setItem("minutos", 5);
+
 input1.addEventListener("change", function() {
     localStorage.setItem("nomeLutador01", input1.value);
 });
