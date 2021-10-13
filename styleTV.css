@@ -1,0 +1,128 @@
+*{
+    margin:0;
+    border:0;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 900;
+} 
+
+
+.inner {
+    width: 1920px; 
+    height: 1080px;
+    display: flex;
+    justify-content: center;
+}
+
+.scoreboard {
+    width: 30%;
+    height: 80px;
+    display: flex;
+    font-size: 30px;
+}
+
+.team {
+    width: 35%;
+    display: inherit;
+    justify-content: center;
+    align-items: center;
+}
+
+#teamOne {
+    background-color:rgb(82,202,58);
+}
+
+#teamTwo {
+    background-color:rgb(202,99,58);
+}
+
+.score {
+    width: 15%;
+    background-color:rgb(75,75,75);
+    display: inherit;
+    justify-content: center;
+    align-items: center;
+}
+
+.placar {
+    position: absolute;
+    top: 8px;
+    left: 16px;
+   
+}
+
+.relogio {
+    position: absolute;
+    bottom: 225px;
+    left: 350px;
+    font-size: 40px;
+}
+
+.lutador01 {
+    position: absolute;
+    bottom: 165px;
+    left: 50px;
+    font-size: 30px;
+}
+
+.academia01 {
+    position: absolute;
+    bottom: 145px;
+    left: 50px;
+    font-size: 20px;
+}
+
+.score11 {
+    position: absolute;
+    bottom: 180px;
+    left: 340px;
+    font-size: 30px;
+}
+.score12 {
+    position: absolute;
+    bottom: 130px;
+    left: 340px;
+    font-size: 30px;
+}
+.score13 {
+    position: absolute;
+    bottom: 135px;
+    left: 415px;
+    font-size: 60px;
+}
+
+
+
+.lutador02 {
+    position: absolute;
+    bottom: 65px;
+    left: 50px;
+    font-size: 30px;
+}
+
+.academia02 {
+    position: absolute;
+    bottom: 45px;
+    left: 50px;
+    font-size: 20px;
+}
+
+.score21 {
+    position: absolute;
+    bottom: 80px;
+    left: 340px;
+    font-size: 30px;
+}
+.score22 {
+    position: absolute;
+    bottom: 30px;
+    left: 340px;
+    font-size: 30px;
+}
+
+.score23 {
+    position: absolute;
+    bottom: 30px;
+    left: 415px;
+    font-size: 60px;
+}

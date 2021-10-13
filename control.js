@@ -132,18 +132,6 @@ var mudouTempo="true";
 var pausado="false";
 
 Reset.addEventListener("click", function() {
-    /*Score1 = 0;
-    Score1B = 0;
-    Score1C = 0;
-    Score2 = 0;
-    Score2B = 0;
-    Score2C = 0;
-    localStorage.setItem('ScoreOne',Score1);
-    localStorage.setItem('ScoreOneB',Score1B);
-    localStorage.setItem('ScoreOneC',Score1C);
-    localStorage.setItem('ScoreTwo',Score2);
-    localStorage.setItem('ScoreTwoB',Score2B);
-    localStorage.setItem('ScoreTwoC',Score2C);*/
     if(mudouTempo=="true") {
        localStorage.setItem('timer',"false");
        mudouTempo="false";
